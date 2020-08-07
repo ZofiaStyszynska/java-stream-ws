@@ -1,4 +1,4 @@
-group 'klolo'
+group 'stream-excercisess'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -11,5 +11,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.13-beta-2'
     compile "org.projectlombok:lombok:1.18.6"
+    annotationProcessor "org.projectlombok:lombok:1.18.8"
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.8'
 }

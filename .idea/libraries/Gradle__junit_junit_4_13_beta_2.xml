@@ -1,5 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: junit:junit:4.13-beta-2">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/junit/junit/4.12-an1/junit-4.12-an1-annotations.zip!/" />
+    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.13-beta-2/2470c41ebd351f7edceac9eea7c414ac847a154/junit-4.13-beta-2.jar!/" />
     </CLASSES>
