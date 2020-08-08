@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.iml" group="java8-stream-free-exercises" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_main.iml" group="java8-stream-free-exercises" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_test.iml" group="java8-stream-free-exercises" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.test.iml" />
     </modules>
   </component>
 </project>

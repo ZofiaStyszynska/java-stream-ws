@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -13,59 +16,40 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c6dc538-fd35-4d73-9fad-7ad277827c34" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/000697f51926cea508805374a7292d27e5a4b088" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13107307656e4cdc4190311fb2c8eb58d7641c54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6481fe3fda25f1a6ceb8b2fd63f66562b8476963" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ce6ac9666b6c28c111d148dd1f6fa7beb5721a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d5190f2259b56b1e055735d536d0c8bf5070c91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e1480241711d7fa64de0eefd8286eaeb56f6c78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/944a65b16e08c327f354014203cd3fa23b403a4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4aab48eef79e643b3f9ec320c1c0b9596c65e2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db5e400669b7500e67852f3212acd54d2ea69f4b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc46986885df3e9f66666c0a257f80a741ccdc5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6b018bc2aba9073bd60ca400b354b8f6d785d09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/eca72fa0068e924ceff1686de959f8933c25052d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_beta_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_beta_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/klolo-javastream.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/klolo-javastream_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/klolo-javastream_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java8-stream-free-exercises_test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.util.stream.ReferencePipeline$Head@1f89ab83" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.util.stream.ReferencePipeline$Head@357246de" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.util.stream.ReferencePipeline$Head@6adca536" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/Holding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/Holding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/Permit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/Permit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/Sex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/logic/WorkShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/AccountMockGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/mock/AccountMockGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/CompanyMockGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/mock/CompanyMockGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/HoldingMockGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/mock/HoldingMockGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/IGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/mock/IGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/UserMockGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/yellowduck/streamapi/mock/UserMockGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/WorkShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/yellowduck/streamapi/logic/WorkShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Accumulate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/BitCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/DRoot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Kata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SrotKata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SumDigPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +134,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="stream&#9;FILE&#9;jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/stream/Stream.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -158,16 +143,19 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.klolo.workshops.logic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata" />
       <recent name="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/domain" />
     </key>
   </component>
@@ -296,11 +284,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.WorkShopTest.shouldReturnAmountOfHoldingWhereIsAtLeastOneCompany" />
       <item itemvalue="JUnit.WorkShopTest" />
       <item itemvalue="JUnit.WorkShopTest.shouldCountMoneyOnAllAccounts" />
       <item itemvalue="JUnit.WorkShopTest.shouldReturnWomanWhichAreOlderThan50" />
       <item itemvalue="JUnit.WorkShopTest.shouldDivideIntoAdultsAndNonAdults" />
-      <item itemvalue="Gradle.WorkShopTest.shouldReturnAmountOfHoldingWhereIsAtLeastOneCompany" />
     </list>
     <recent_temporary>
       <list>
@@ -312,6 +300,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -333,7 +322,7 @@
       <workItem from="1502907683826" duration="710000" />
       <workItem from="1503151802318" duration="1315000" />
       <workItem from="1503952641839" duration="536000" />
-      <workItem from="1596831956274" duration="2026000" />
+      <workItem from="1596831956274" duration="2617000" />
     </task>
     <servers />
   </component>
@@ -350,28 +339,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596833040025">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596833040025" />
-    <state width="1878" height="243" key="GridCell.Tab.0.bottom" timestamp="1596833589264">
+    <state x="584" y="141" width="742" height="831" key="FileChooserDialogImpl" timestamp="1596875807684">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="243" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596833589264" />
-    <state width="1878" height="243" key="GridCell.Tab.0.center" timestamp="1596833589263">
+    <state x="584" y="141" width="742" height="831" key="FileChooserDialogImpl/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596875807684" />
+    <state width="1842" height="336" key="GridCell.Tab.0.bottom" timestamp="1596880649671">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="243" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596833589263" />
-    <state width="1878" height="243" key="GridCell.Tab.0.left" timestamp="1596833589263">
+    <state width="1842" height="336" key="GridCell.Tab.0.bottom/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596880649671" />
+    <state width="1878" height="243" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596869612449" />
+    <state width="1842" height="336" key="GridCell.Tab.0.center" timestamp="1596880649671">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="243" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596833589263" />
-    <state width="1878" height="243" key="GridCell.Tab.0.right" timestamp="1596833589264">
+    <state width="1842" height="336" key="GridCell.Tab.0.center/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596880649671" />
+    <state width="1878" height="243" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596869612447" />
+    <state width="1842" height="336" key="GridCell.Tab.0.left" timestamp="1596880649671">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="243" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596833589264" />
+    <state width="1842" height="336" key="GridCell.Tab.0.left/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596880649671" />
+    <state width="1878" height="243" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596869612443" />
+    <state width="1842" height="336" key="GridCell.Tab.0.right" timestamp="1596880649671">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1842" height="336" key="GridCell.Tab.0.right/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596880649671" />
+    <state width="1878" height="243" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596869612449" />
+    <state x="83" y="27" width="1744" height="1053" key="SettingsEditor" timestamp="1596880736919">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="83" y="27" width="1744" height="1053" key="SettingsEditor/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596880736919" />
+    <state x="366" y="25" key="search.everywhere.popup" timestamp="1596880702299">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="366" y="25" key="search.everywhere.popup/0.27.1920.1053/0.27.1920.1053@0.27.1920.1053" timestamp="1596880702299" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
