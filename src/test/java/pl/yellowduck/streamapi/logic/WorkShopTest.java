@@ -322,7 +322,7 @@ public class WorkShopTest {
         final String userNames = workShop.getUserNames();
 
         assertNotNull(userNames);
-        assertTrue(userNames.startsWith("Adam Alfred Amadeusz Bartek Filip"));
+        assertTrue(userNames.startsWith("Amadeusz Filip Zenek Marcin Jan Adam Mateusz Martin Karol Patryk Alfred"));
     }
 
     /**

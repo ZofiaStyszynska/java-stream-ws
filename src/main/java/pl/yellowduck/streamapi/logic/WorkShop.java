@@ -267,8 +267,10 @@ class WorkShop {
     }
 
     /**
-     * Metoda zwraca jaki rodzaj rachunku jest najpopularniejszy. Stwórz pomocniczą metodę getAccountStream.
-     * Jeżeli nie udało się znaleźć najpopularniejszego rachunku metoda ma wyrzucić wyjątek IllegalStateException.
+     * Metoda zwraca jaki rodzaj rachunku jest najpopularniejszy.
+     * Stwórz pomocniczą metodę getAccountStream.
+     * Jeżeli nie udało się znaleźć najpopularniejszego rachunku
+     * metoda ma wyrzucić wyjątek IllegalStateException.
      * Pierwsza instrukcja metody to return.
      */
     AccountType getMostPopularAccountType() {
@@ -325,14 +327,20 @@ class WorkShop {
     }
 
     /**
-     * Zwraca listę wszystkich imion w postaci Stringa, gdzie imiona oddzielone są spacją i nie zawierają powtórzeń.
+     * Zwraca listę wszystkich imion w postaci Stringa,
+     * gdzie imiona oddzielone są spacją i nie zawierają powtórzeń.
      */
     String getUserNames() {
-        return null; // TODO
+        return getUserStream()
+                .filter(p -> p.getSex().equals(Sex.MAN))
+                .map(user -> user.getFirstName())
+                .distinct()
+                .collect(Collectors.joining(" "));
     }
 
     /**
-     * Zwraca zbiór wszystkich użytkowników. Jeżeli jest ich więcej niż 10 to obcina ich ilość do 10.
+     * Zwraca zbiór wszystkich użytkowników.
+     * Jeżeli jest ich więcej niż 10 to obcina ich ilość do 10.
      */
     Set<User> getUsers() {
         return null; // TODO
