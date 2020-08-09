@@ -10,18 +10,20 @@ import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java.util.function.Predicate.*;
 import static java.util.stream.Collectors.toMap;
 
 class WorkShop {
+
+    public static final Predicate<User> IS_WOMAN = user -> user.getSex().equals(Sex.WOMAN);
+
     /**
      * Lista holdingów wczytana z mocka.
      */
     private final List<Holding> holdings;
-
-    private final Predicate<User> isWoman = user -> user.getSex().equals(Sex.WOMAN);
-    private Predicate<User> isMan = m -> m.getSex() == Sex.MAN;
 
     WorkShop() {
         final HoldingMockGenerator holdingMockGenerator = new HoldingMockGenerator();
@@ -32,14 +34,36 @@ class WorkShop {
      * Metoda zwraca liczbę holdingów w których jest przynajmniej jedna firma.
      */
     long getHoldingsWhereAreCompanies() {
-        return 0; // TODO
+        return holdings.stream()
+                .filter(not(holding -> holding.getCompanies().isEmpty()))
+                .count();
+
+        // imperatywnie lista i welkosc
+//        List<Holding> local = new ArrayList<>();
+//        for (Holding holding : holdings) {
+//            if(!holding.getCompanies().isEmpty()) {
+//                local.add(holding);
+//            }
+//        }
+//        return holdings.size();
+
+        // imperatywne zliczenie
+//        int i = 0;
+//        for (Holding holding : holdings) {
+//            if(!holding.getCompanies().isEmpty()) {
+//                i++;
+//            }
+//        }
+//        return holdings.size();
     }
 
     /**
      * Zwraca nazwy wszystkich holdingów pisane z małej litery w formie listy.
      */
     List<String> getHoldingNames() {
-        return null; // TODO
+        return holdings.stream()
+                .map(holding -> holding.getName().toLowerCase())
+                .collect(Collectors.toList());
     }
 
     /**
@@ -47,44 +71,69 @@ class WorkShop {
      * String ma postać: (Coca-Cola, Nestle, Pepsico)
      */
     String getHoldingNamesAsString() {
-        return null; // TODO
+        return holdings.stream()
+                .map(holding -> holding.getName())
+                .sorted()
+                .collect(Collectors.joining(", ", "(", ")"));
     }
 
     /**
      * Zwraca liczbę firm we wszystkich holdingach.
      */
     long getCompaniesAmount() {
-        return 0; // TODO
+        return holdings.stream()
+                .mapToInt(holding -> holding.getCompanies().size())
+                .sum();
     }
 
     /**
      * Zwraca liczbę wszystkich pracowników we wszystkich firmach.
      */
     long getAllUserAmount() {
-        return 0; // TODO
+        return getCompanyStream()
+                .mapToInt(comapny -> comapny.getUsers().size())
+                .sum();
     }
 
     /**
-     * Zwraca listę wszystkich nazw firm w formie listy. Tworzenie strumienia firm umieść w osobnej metodzie którą
+     * Zwraca listę wszystkich nazw firm w formie listy.
+     * Tworzenie strumienia firm umieść w osobnej metodzie którą
      * później będziesz wykorzystywać.
      */
     List<String> getAllCompaniesNames() {
-        return null; // TODO
+        return getCompanyStream()
+                .map(company -> company.getName())
+                .collect(Collectors.toList());
     }
 
     /**
-     * Zwraca listę wszystkich firm jako listę, której implementacja to LinkedList. Obiektów nie przepisujemy
+     * Zwraca strumień wszystkich firm.
+     */
+    private Stream<Company> getCompanyStream() {
+        return holdings.stream()
+                .flatMap(holding -> holding.getCompanies().stream());
+    }
+
+    /**
+     * Zadanie 10
+     * Zwraca listę wszystkich firm jako listę, której implementacja to LinkedList.
+     * Obiektów nie przepisujemy
      * po zakończeniu działania strumienia.
      */
     LinkedList<String> getAllCompaniesNamesAsLinkedList() {
-        return null; // TODO
+        return getCompanyStream()
+                .map(company -> company.getName())
+                .collect(Collectors.toCollection(LinkedList::new));
     }
 
     /**
-     * Zwraca listę firm jako String gdzie poszczególne firmy są oddzielone od siebie znakiem "+"
+     * Zwraca listę firm jako String gdzie poszczególne firmy są oddzielone od
+     * siebie znakiem "+"
      */
     String getAllCompaniesNamesAsString() {
-        return null; // TODO
+        return getCompanyStream()
+                .map(company -> company.getName())
+                .collect(Collectors.joining("+"));
     }
 
     /**
@@ -101,7 +150,9 @@ class WorkShop {
      * Zwraca liczbę wszystkich rachunków, użytkowników we wszystkich firmach.
      */
     long getAllUserAccountsAmount() {
-        return 0; // TODO
+        return getUserStream()
+                .mapToInt(user -> user.getAccounts().size())
+                .sum();
     }
 
     /**
@@ -127,11 +178,21 @@ class WorkShop {
     }
 
     /**
-     * Zwraca liczbę kobiet we wszystkich firmach. Powtarzający się fragment kodu tworzący strumień użytkowników umieść
-     * w osobnej metodzie. Predicate określający czy mamy do czynienia z kobietą niech będzie polem statycznym w klasie.
+     * Zwraca liczbę kobiet we wszystkich firmach. Powtarzający się fragment
+     * kodu tworzący strumień użytkowników umieść
+     * w osobnej metodzie.
+     * Predicate określający czy mamy do czynienia z kobietą niech
+     * będzie polem statycznym w klasie.
      */
     long getWomanAmount() {
-        return 0; // TODO
+        return getUserStream()
+                .filter(IS_WOMAN)
+                .count();
+    }
+
+    private Stream<User> getUserStream() {
+        return getCompanyStream()
+                .flatMap(company -> company.getUsers().stream());
     }
 
 
@@ -320,13 +381,6 @@ class WorkShop {
      * wyrzucić wyjątek (bez zmiany sygnatury metody).
      */
     List<User> getRandomUsers(final int n) {
-        return null; // TODO
-    }
-
-    /**
-     * Zwraca strumień wszystkich firm.
-     */
-    private Stream<Company> getCompanyStream() {
         return null; // TODO
     }
 
