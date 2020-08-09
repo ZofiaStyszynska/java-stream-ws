@@ -282,7 +282,9 @@ class WorkShop {
      * wyjątek IllegalArgumentException.
      */
     User getUser(final Predicate<User> predicate) {
-        return null; // TODO
+        return getUserStream()
+                .filter(predicate)
+                .findFirst().get(); // TODO
     }
 
     /**
@@ -343,7 +345,9 @@ class WorkShop {
      * Jeżeli jest ich więcej niż 10 to obcina ich ilość do 10.
      */
     Set<User> getUsers() {
-        return null; // TODO
+        return getUserStream()
+                .limit(10)
+                .collect(Collectors.toSet());
     }
 
     /**
