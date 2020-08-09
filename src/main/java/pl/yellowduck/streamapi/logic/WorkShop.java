@@ -235,15 +235,28 @@ class WorkShop {
      * Dla każdej firmy uruchamia przekazaną metodę.
      */
     void executeForEachCompany(final Consumer<Company> consumer) {
-      // TODO
+        // TODO
     }
 
     /**
-     * Wyszukuje najbogatsza kobietę i zwraca ją. Metoda musi uzwględniać to że rachunki są w różnych walutach.
+     * Wyszukuje najbogatsza kobietę i zwraca ją.
+     * Metoda musi uzwględniać to że rachunki są w różnych walutach.
      */
-    //pomoc w rozwiązaniu problemu w zadaniu: https://stackoverflow.com/a/55052733/9360524
+    //pomoc w rozwiązaniu problemu w zadaniu:
+    // https://stackoverflow.com/a/55052733/9360524
     Optional<User> getRichestWoman() {
-        return null; // TODO
+        return getUserStream()
+                .filter(IS_WOMAN)
+                .max(Comparator.comparing(this::getUserAcountAmount));
+    }
+
+    private BigDecimal getUserAcountAmount(User user) {
+        System.out.println("counting ammout for " + user.getLastName());
+        return user.getAccounts()
+                .stream()
+                .map(account -> account.getAmount()
+                        .multiply(BigDecimal.valueOf(account.getCurrency().rate)))
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
 
     /**
@@ -332,7 +345,7 @@ class WorkShop {
      * Skorzystaj z strumieni i try-resources.
      */
     void saveAccountsInFile(final String fileName) {
-       // TODO
+        // TODO
     }
 
     /**
