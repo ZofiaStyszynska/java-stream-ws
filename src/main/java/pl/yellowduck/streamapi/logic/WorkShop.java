@@ -301,7 +301,13 @@ class WorkShop {
      * składający się z imienia i nazwiska. Podpowiedź:  Możesz skorzystać z metody entrySet.
      */
     Map<String, List<String>> getUserPerCompanyAsString() {
-        return null; // TODO
+        return getCompanyStream()
+                .collect(toMap(
+                        company -> company.getName(),
+                        company -> company.getUsers().stream()
+                                .map(user -> user.getFirstName() + " " + user.getLastName())
+                                .collect(Collectors.toList())
+                ));
     }
 
     /**
